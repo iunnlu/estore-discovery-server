@@ -20,4 +20,4 @@ phases:
 artifacts:
   files:
     - imagedefinitions.json
-    - target/*.jar
+    - opt/app/*.jar
