@@ -10,10 +10,10 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build -t 139878221908.dkr.ecr.eu-central-1.amazonaws.com/estore:latest .
-      - docker tag 139878221908.dkr.ecr.eu-central-1.amazonaws.com/estore:latest 139878221908.dkr.ecr.eu-central-1.amazonaws.com/139878221908.dkr.ecr.eu-central-1.amazonaws.com/estore:latest
+      - docker build -t estore:latest .
+      - docker tag estore:latest 139878221908.dkr.ecr.eu-central-1.amazonaws.com/estore:latest
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push 139878221908.dkr.ecr.eu-central-1.amazonaws.com/139878221908.dkr.ecr.eu-central-1.amazonaws.com/estore:latest
+      - docker push 139878221908.dkr.ecr.eu-central-1.amazonaws.com/estore:latest
