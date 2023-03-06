@@ -1,0 +1,49 @@
+{
+    "taskDefinitionArn": "arn:aws:ecs:eu-central-1:139878221908:task-definition/estore-eureka-server-task:8",
+    "containerDefinitions": [
+        {
+            "name": "estore-eureka-server-container",
+            "image": "<IMAGE1_NAME>",
+            "cpu": 0,
+            "portMappings": [
+                {
+                    "containerPort": 8761,
+                    "hostPort": 8080,
+                    "protocol": "tcp"
+                }
+            ],
+            "essential": true,
+            "entryPoint": [],
+            "command": [],
+            "environment": [],
+            "mountPoints": [],
+            "volumesFrom": []
+        }
+    ],
+    "family": "estore-eureka-server-task",
+    "executionRoleArn": "arn:aws:iam::139878221908:role/ecsTaskExecutionRole",
+    "revision": 8,
+    "volumes": [],
+    "status": "ACTIVE",
+    "requiresAttributes": [
+        {
+            "name": "com.amazonaws.ecs.capability.ecr-auth"
+        },
+        {
+            "name": "ecs.capability.execution-role-ecr-pull"
+        }
+    ],
+    "placementConstraints": [],
+    "compatibilities": [
+        "EXTERNAL",
+        "EC2"
+    ],
+    "requiresCompatibilities": [
+        "EC2"
+    ],
+    "cpu": "1024",
+    "memory": "512",
+    "registeredAt": "2023-03-03T09:08:10.886Z",
+    "registeredBy": "arn:aws:iam::139878221908:root",
+    "tags": []
+}
