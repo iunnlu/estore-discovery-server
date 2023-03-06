@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "estore-eureka-server-container",
-            "image": "<IMAGE1_NAME>",
+            "image": "139878221908.dkr.ecr.eu-central-1.amazonaws.com/estore-discovery-server:latest",
             "cpu": 0,
             "portMappings": [
                 {
