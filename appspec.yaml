@@ -6,4 +6,4 @@ Resources:
         TaskDefinition: "arn:aws:ecs:eu-central-1:139878221908:task-definition/estore-eureka-server-task:8"
         LoadBalancerInfo:
           ContainerName: "estore-eureka-server-container"
-          ContainerPort: 8080
+          ContainerPort: 8761
