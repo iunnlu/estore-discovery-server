@@ -12,12 +12,7 @@
                     "protocol": "tcp"
                 }
             ],
-            "essential": true,
-            "entryPoint": [],
-            "command": [],
-            "environment": [],
-            "mountPoints": [],
-            "volumesFrom": []
+            "essential": true
         }
     ],
     "family": "estore-eureka-server-task",
@@ -33,7 +28,6 @@
             "name": "ecs.capability.execution-role-ecr-pull"
         }
     ],
-    "placementConstraints": [],
     "compatibilities": [
         "EXTERNAL",
         "EC2"
