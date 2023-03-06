@@ -18,7 +18,6 @@
     "family": "estore-eureka-server-task",
     "executionRoleArn": "arn:aws:iam::139878221908:role/ecsTaskExecutionRole",
     "revision": 8,
-    "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
         {
