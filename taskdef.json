@@ -12,12 +12,18 @@
                     "protocol": "tcp"
                 }
             ],
-            "essential": true
+            "essential": true,
+            "entryPoint": [],
+            "command": [],
+            "environment": [],
+            "mountPoints": [],
+            "volumesFrom": []
         }
     ],
     "family": "estore-eureka-server-task",
     "executionRoleArn": "arn:aws:iam::139878221908:role/ecsTaskExecutionRole",
     "revision": 8,
+    "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
         {
@@ -27,6 +33,7 @@
             "name": "ecs.capability.execution-role-ecr-pull"
         }
     ],
+    "placementConstraints": [],
     "compatibilities": [
         "EXTERNAL",
         "EC2"
@@ -38,5 +45,7 @@
     "memory": "512",
     "registeredAt": "2023-03-03T09:08:10.886Z",
     "registeredBy": "arn:aws:iam::139878221908:root",
-    "tags": "<ImageTags>"
+    "tags": [
+        "Name"
+    ]
 }
