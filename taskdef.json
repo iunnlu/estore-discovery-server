@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:eu-central-1:139878221908:task-definition/estore-eureka-server-task:8",
+    "taskDefinitionArn": "arn:aws:ecs:eu-central-1:139878221908:task-definition/estore-eureka-server-task:24",
     "containerDefinitions": [
         {
             "name": "estore-eureka-server-container",
@@ -41,8 +41,8 @@
     "requiresCompatibilities": [
         "EC2"
     ],
-    "cpu": "200",
-    "memory": "150",
+    "cpu": "1024",
+    "memory": "3072",
     "registeredAt": "2023-03-03T09:08:10.886Z",
     "registeredBy": "arn:aws:iam::139878221908:root",
     "tags": null
